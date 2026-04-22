@@ -6,12 +6,11 @@
 :root {
   --navy: #1e3a5f;
   --navy-dk: #142845;
+  --navy-alt: #2C373F;
   --navy-light: #2d5184;
   --red: #c1272d;
   --red-dk: #9a1f25;
-  --red-lt: #e84a50;
-  --army-green: #4b5320;
-  --khaki: #a89968;
+  --red-lt: #9a1f25;
   --white: #ffffff;
   --off-white: #f8f9fb;
   --ink: #111827;
@@ -20,6 +19,8 @@
   --stone-lt: #9ca3af;
   --line: #e5e7eb;
   --line-dk: #d1d5db;
+  --brand-gray: #A8B7B6;  
+  --brand-olive: #41483C; 
 
   --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 
