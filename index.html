@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23b31e38' d='M3 16h4l2-6 3 12 3-10 2 4h12' stroke='%23b31e38' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="icon" type="image/png" href="images/logo/icvc_logo_color.png">
 </head>
 <body>
 
@@ -19,25 +19,15 @@
 <div class="crisis-banner" role="region" aria-label="Crisis support">
   In crisis? <strong>Veterans Crisis Line</strong> &nbsp;&bull;&nbsp;
   <a href="tel:988">Dial 988, press 1</a> &nbsp;&bull;&nbsp;
-  <a href="sms:838255">Text 838255</a> &nbsp;&bull;&nbsp;
-  From DR: <a href="tel:+18008388255">+1 (800) 838-8255</a>
+  <a href="sms:000000">Text 000000</a> &nbsp;&bull;&nbsp;
+  From DR: <a href="tel:+10000000000">+1 (000) 000-0000</a>
 </div>
 
 <!-- Header -->
 <header class="site-header">
   <div class="container">
     <nav class="nav" aria-label="Main">
-      <a href="index.html" class="brand" aria-label="International Caribbean Veterans Care, home">
-        <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
-          <circle cx="24" cy="24" r="22" fill="none" stroke="#1e3a5f" stroke-width="1.5"/>
-          <path d="M8 24h5l2-5 3 10 3-9 2 4h17" stroke="#c1272d" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-          <text x="24" y="36" text-anchor="middle" font-family="Inter, sans-serif" font-size="5" font-weight="700" fill="#1e3a5f" letter-spacing="0.3">VETERANS</text>
-        </svg>
-        <span class="brand-text">
-          <span class="top">International Caribbean</span>
-          <span class="main">Veterans Care</span>
-        </span>
-      </a>
+      <a href="index.html" class="brand" aria-label="International Caribbean Veterans Care, home"> <img src="images/logo/icvc_logo_color.png" alt="International Caribbean Veterans Care" class="brand-logo"> </a>
       <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="primary-nav">
         <span></span>
       </button>
@@ -51,7 +41,7 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
       <div class="nav-cta">
-        <a href="https://wa.me/18095550142" class="btn btn--outline btn--sm">WhatsApp</a>
+        <a href="https://wa.me/18094553305" class="btn btn--outline btn--sm">WhatsApp</a>
         <a href="contact.html#booking" class="btn btn--primary btn--sm">Book a Visit</a>
       </div>
     </nav>
@@ -95,32 +85,50 @@
           </span>
         </div>
       </div>
-
+      <!-- Images carousel -->
       <div class="hero-visual" aria-hidden="true">
-        <div class="hero-card">
-          <div class="hero-card-content">
-            <span class="hero-card-location">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Punta Cana, DR
-            </span>
-            <div>
-              <h2 class="hero-card-headline">Where world-class care meets the Caribbean.</h2>
-              <p class="hero-card-desc">
-                From routine checkups and chiropractic care to mental health
-                retreats steps from the ocean, all covered under VA's Foreign
-                Medical Program.
-              </p>
-            </div>
-            <div class="hero-card-stats">
-              <div class="hero-card-stat">
-                <div class="num">FMP</div>
-                <div class="label">Fully Covered</div>
-              </div>
-              <div class="hero-card-stat">
-                <div class="num">24/7</div>
-                <div class="label">Urgent Access</div>
+        <div class="hero-carousel" data-hero-carousel>
+          <div class="hero-carousel-track">
+
+            <div class="hero-slide is-active">
+              <img src="images/hero/icvc_vitamins.jpg" alt="" loading="eager">
+              <div class="hero-slide-overlay">
+                <span class="hero-slide-location">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  IV Therapy by the Pool
+                </span>
+                <h2 class="hero-slide-headline">Wellness treatments, delivered in paradise</h2>
               </div>
             </div>
+
+            <div class="hero-slide">
+              <img src="images/hero/icvc_hiking_group.jpg" alt="" loading="lazy">
+              <div class="hero-slide-overlay">
+                <span class="hero-slide-location">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Group Retreat, Dominican Republic
+                </span>
+                <h2 class="hero-slide-headline"> community of veterans healing together</h2>
+              </div>
+            </div>
+
+            <div class="hero-slide">
+              <img src="images/hero/icvc_beach.jpg" alt="" loading="lazy">
+              <div class="hero-slide-overlay">
+                <span class="hero-slide-location">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Caribbean Coast, Punta Cana
+                </span>
+                <h2 class="hero-slide-headline">Where nature becomes part of the therapy</h2>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="hero-carousel-dots" data-hero-dots>
+            <button class="hero-carousel-dot is-active" data-index="0" aria-label="Photo 1"></button>
+            <button class="hero-carousel-dot" data-index="1" aria-label="Photo 2"></button>
+            <button class="hero-carousel-dot" data-index="2" aria-label="Photo 3"></button>
           </div>
         </div>
       </div>
@@ -155,7 +163,7 @@
   </div>
 </section>
 
-<!-- About intro -->
+<!-- About intro / Why Punta Cana-->
 <section>
   <div class="container container--narrow">
     <div class="reveal" style="text-align: center;">
@@ -281,8 +289,8 @@
   <div class="container">
     <div class="fmp-card reveal">
       <div style="max-width: 720px;">
-        <span class="eyebrow" style="color: #ff9ba0;">Foreign Medical Program</span>
-        <h2>Your VA benefits, <span class="accent">across borders</span>.</h2>
+        <span class="eyebrow" style="color: #dc474f;">Foreign Medical Program</span>
+        <h2>Your VA benefits, <span class="accent" style="color: #dc474f;" >across borders</span>.</h2>
         <p class="lead" style="color: rgba(255,255,255,0.85);">
           The VA's Foreign Medical Program (FMP) covers healthcare for
           service-connected conditions when you're outside the U.S. We're
@@ -292,65 +300,81 @@
         </p>
         <div style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
           <a href="fmp.html" class="btn btn--primary">Learn about FMP coverage</a>
-          <a href="contact.html" class="btn btn--outline-white">Ask us anything</a>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Stats -->
-<section style="padding-top: 0;">
+<!-- Testimonials carousel -->
+<section style="background: var(--off-white); padding-top: 1rem; padding-bottom: var(--space-6);">
   <div class="container">
-    <div class="stats reveal">
-      <div>
-        <div class="stat-value">1,200<span class="amp">+</span></div>
-        <div class="stat-label">Veterans Treated</div>
+    <div class="testimonials reveal" data-testimonials>
+      <div class="testimonials-track">
+
+        <div class="testimonial is-active">
+          <blockquote>
+            I have had the privilege of being under Dr. Collado's care, and I am immensely grateful 
+            for his expertise, compassion, and unwavering support. His commitment to going above and 
+            beyond for his patients has made a profound difference in my life. I extend my deepest 
+            gratitude to Dr. Collado, Lesley, their staff, and all those who have contributed to the 
+            establishment of this Veterans clinic. Thank you. Airborne all the way!
+          </blockquote>
+          <cite>Agustin Peguero, U.S. Army </cite>
+        </div>
+
+        <div class="testimonial">
+          <blockquote>
+            I had an amazing experience at the International Caribbean Veterans Care Clinic. From the 
+            moment I walked in, I felt welcomed, cared for, and supported. The staff is not only 
+            professional but also compassionate, making sure every detail of my visit was handled with 
+            kindness and respect. The therapies, especially the water healing therapy, were incredibly 
+            restorative and unlike anything I’ve experienced before.
+          </blockquote>
+          <cite>Arnulfo Lopez, U.S. Army </cite>
+        </div>
+
+        <div class="testimonial">
+          <blockquote>
+            I was skeptical about doing PTSD work outside a VA facility.
+            The retreat program changed my mind completely. Clinically serious,
+            genuinely warm, and I came home a different person. My wife
+            noticed the difference before I did.
+          </blockquote>
+          <cite>Jessica Acevedo, U.S. Navy </cite>
+        </div>
+
       </div>
-      <div>
-        <div class="stat-value">100<span class="amp">%</span></div>
-        <div class="stat-label">FMP Billing Handled In-House</div>
-      </div>
-      <div>
-        <div class="stat-value">7<span class="amp">yrs</span></div>
-        <div class="stat-label">Serving DR-Based Vets</div>
-      </div>
-      <div>
-        <div class="stat-value">&lt;48<span class="amp">h</span></div>
-        <div class="stat-label">Median Time to First Appointment</div>
+
+      <div class="testimonials-controls">
+        <button class="testimonials-btn" data-prev aria-label="Previous testimonial">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <div class="testimonials-dots" data-dots>
+          <button class="testimonials-dot is-active" data-index="0" aria-label="Testimonial 1"></button>
+          <button class="testimonials-dot" data-index="1" aria-label="Testimonial 2"></button>
+          <button class="testimonials-dot" data-index="2" aria-label="Testimonial 3"></button>
+        </div>
+        <button class="testimonials-btn" data-next aria-label="Next testimonial">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Pull quote -->
-<section style="padding-top: 1rem; padding-bottom: var(--space-6);">
-  <div class="container">
-    <div class="pullquote reveal">
-      <blockquote>
-        I retired to Punta Cana five years ago and spent the first two
-        flying back to Miami every few months for care. Finding International
-        Caribbean Veterans Care changed everything. Same standard of medicine,
-        zero stress, and the VA handles the bill.
-      </blockquote>
-      <cite>T. Miller, U.S. Army (retired), B&aacute;varo resident</cite>
-    </div>
-  </div>
-</section>
-
-<!-- CTA band -->
+<!-- CTA band / Ready when you are-->
 <section class="cta-band">
   <div class="container">
-    <span class="eyebrow" style="color: #ff9ba0;">Ready when you are</span>
-    <h2>Quality care <span class="accent">without leaving the island</span>.</h2>
+    <span class="eyebrow" style="color: #dc474f;">Ready when you are</span>
+    <h2>Quality care <span class="accent" style="color: #dc474f;">without leaving the island</span>.</h2>
     <p class="lead">
       Whether you're a full-time resident, a snowbird, or visiting for a
       few weeks, we're here. Call, message, or schedule online.
     </p>
     <div class="hero-actions">
       <a href="contact.html#booking" class="btn btn--primary">Book a visit</a>
-      <a href="https://wa.me/18095550142" class="btn btn--outline-white">WhatsApp us</a>
-      <a href="contact.html" class="btn btn--outline-white">Contact the clinic</a>
+      <a href="https://wa.me/18094553305" class="btn btn--outline-white">WhatsApp us</a>
     </div>
   </div>
 </section>
@@ -361,18 +385,12 @@
 <footer class="site-footer">
   <div class="container">
     <div class="footer-crisis">
-      <strong>VETERANS CRISIS LINE:</strong> Dial <a href="tel:988">988</a> and press <strong>1</strong> (from US) &nbsp;&bull;&nbsp; Text <a href="sms:838255">838255</a> &nbsp;&bull;&nbsp; From DR / international: <a href="tel:+18008388255">+1 (800) 838-8255</a>. Free, confidential, 24/7.
+      <strong>VETERANS CRISIS LINE:</strong> Dial <a href="tel:988">988</a> and press <strong>1</strong> (from US) &nbsp;&bull;&nbsp; Text <a href="sms:00000">00000</a> &nbsp;&bull;&nbsp; From DR / international: <a href="tel:+18090000000">+1 (809) 000-0000</a>. Free, confidential, 24/7.
     </div>
 
     <div class="footer-top">
       <div>
-        <div class="footer-brand">
-          <svg width="36" height="36" viewBox="0 0 48 48" aria-hidden="true">
-            <circle cx="24" cy="24" r="22" fill="none" stroke="#ffffff" stroke-width="1.5"/>
-            <path d="M8 24h5l2-5 3 10 3-9 2 4h17" stroke="#c1272d" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-          <span>International Caribbean<br>Veterans Care</span>
-        </div>
+        <div class="footer-brand"> <img src="images/logo/icvc_logo_blanco.png" alt="International Caribbean Veterans Care" class="footer-logo"> </div>
         <p>Top-line healthcare for U.S. veterans in the Dominican Republic. FMP-covered services, expert bilingual team, American standards of care.</p>
       </div>
       <div>
@@ -390,30 +408,33 @@
           <li><a href="contact.html#booking">Book a visit</a></li>
           <li><a href="fmp.html">FMP &amp; billing</a></li>
           <li><a href="contact.html">Contact</a></li>
-          <li><a href="https://wa.me/18095550142">WhatsApp</a></li>
+          <li><a href="https://wa.me/18094553305">WhatsApp</a></li>
         </ul>
       </div>
       <div>
         <h4>Contact</h4>
         <ul class="footer-links">
-          <li><a href="tel:+18095550142">+1 (809) 555-0142</a></li>
-          <li><a href="mailto:care@caribbeanvetcare.com">care@caribbeanvetcare.com</a></li>
+          <li><a href="tel:+18094553305">+1 (809) 455-3305</a></li>
+          <li><a href="mailto:info@internationalcaribbeanvetcare.com">info@internationalcaribbeanvetcare.com</a></li>
           <li>Av. Barcel&oacute;, B&aacute;varo<br>Punta Cana, Dominican Republic</li>
         </ul>
       </div>
     </div>
 
     <div class="footer-bottom">
-      <div>&copy; <span id="year">2026</span> International Caribbean Veterans Care. All rights reserved.</div>
+      <div>&copy; <span id="year"></span> International Caribbean Veterans Care. All rights reserved.</div>
       <div>
-        <a href="#privacy" style="margin-right: 1rem;">Privacy</a>
-        <a href="#hipaa" style="margin-right: 1rem;">HIPAA Notice</a>
-        <a href="#accessibility">Accessibility</a>
+        <span href="#privacy" style="margin-right: 1rem;">Privacy</span>
+        <span href="#hipaa" style="margin-right: 1rem;">HIPAA Notice</span>
+        <span href="#accessibility">Accessibility</span>
       </div>
     </div>
   </div>
 </footer>
 
 <script src="js/main.js"></script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
