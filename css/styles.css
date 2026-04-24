@@ -1164,3 +1164,12 @@ section { padding: var(--space-7) 0; }
     aspect-ratio: 16 / 10;
   }
 }
+
+@media (max-width: 900px) {
+  .service-column ul {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    text-align: left;
+  }
+}
